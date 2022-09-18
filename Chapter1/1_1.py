@@ -10,5 +10,3 @@ print(x, y)  # 3,5
 tt = 'abcde'
 _, b, c, d, _ = tt
 print(b, c, d)   # b c d
-
-
