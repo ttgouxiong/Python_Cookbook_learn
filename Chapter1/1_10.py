@@ -28,3 +28,4 @@ print(list(dedupe2(a, key=lambda t:(t['x'], t['y']))))
 # 如果只是简单的去重，可以用集合set，但是结果可能会被打乱
 a = [1,5,2,1,9,1,5,10]
 print(set(a))  #{1, 2, 5, 9, 10}
+
